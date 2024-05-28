@@ -1,0 +1,30 @@
+#navBar{
+    background-color: gray;
+}
+#navList{
+    /* remove dots from ul */
+list-style-type:none;
+    /* make all the li the same line*/
+display:flex;
+    /*creat one row*/
+flex-direction: row;
+/*add spaceing between the elements*/
+justify-content: space-around;
+/* make all hte items in center*/
+align-items: center;
+}
+.logo{
+    /* radius for items*/
+    border-radius: 70px; ;
+}
+.navButton{
+    font-size: 17px;
+    width: 70px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: brown;
+}
+.navButton:hover{
+    background-color: aquamarine;
+    width: 100px;
+}
