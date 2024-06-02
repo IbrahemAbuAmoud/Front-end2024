@@ -28,3 +28,9 @@ align-items: center;
     background-color: aquamarine;
     width: 100px;
 }
+footer{
+    background-color: gray;
+    color: black;
+    text-align: center;
+    
+}

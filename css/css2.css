@@ -1,0 +1,23 @@
+.navList{
+list-style-type:none;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#join{
+    border: 1px red solid;
+    padding: 20px;
+    border-radius: 20px;
+}
+#first{
+    background-image:url('../gym\ bc.jpg') ;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
