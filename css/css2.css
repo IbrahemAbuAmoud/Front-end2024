@@ -21,3 +21,57 @@ a{
     background-repeat: no-repeat;
     background-size:cover ;
 }
+.title{
+    color: red;
+    padding-top: 100px;
+    font-size:40px ;
+
+}
+.firstbody{
+    padding-top: 100px;
+    font-size: 40px;
+    color: white;
+    padding-left:40px ;
+    width: 500px;
+}
+
+.redcolor{
+    color: red;
+}
+
+.app{
+    font-size: 30px;
+    padding: 20px;
+    border: 1px solid red;
+    background-color: rgba(0,0,0,0);
+    border-radius: 20px;
+}
+
+.app:hover{
+    background-color: whitesmoke;
+}
+
+.newUl{
+    font-size: 10px;
+    color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+}
+.withBorder{
+    list-style-type: none;
+    border-right: 1px solid white;
+    padding-right: 20px;
+
+}
+.colorWhite{
+    color: white;
+}
+li{
+    list-style-type: none;
+}
+#second{
+align-items: center;
+
+}
