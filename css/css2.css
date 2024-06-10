@@ -16,42 +16,42 @@ a{
     border-radius: 20px;
 }
 #first{
+    color: white;
     background-image:url('../gym\ bc.jpg') ;
     height: 700px;
     background-repeat: no-repeat;
     background-size:cover ;
 }
 .title{
-    color: red;
-    padding-top: 100px;
+    color: white;
     font-size:40px ;
 
 }
-.firstbody{
+.firstBody{
     padding-top: 100px;
     font-size: 40px;
     color: white;
-    padding-left:40px ;
+    padding-left:50px ;
     width: 500px;
 }
 
-.redcolor{
+.redColor{
     color: red;
 }
 
-.app{
-    font-size: 30px;
-    padding: 20px;
+.App{
+    font-size: 20px;
+    padding: 15px;
     border: 1px solid red;
     background-color: rgba(0,0,0,0);
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
-.app:hover{
+.App:hover{
     background-color: whitesmoke;
 }
 
-.newUl{
+#newUl{
     font-size: 10px;
     color: red;
     display: flex;
@@ -59,19 +59,22 @@ a{
     justify-content: space-around;
     align-items: start;
 }
+
+li{
+    list-style-type: none;
+
+}
+
 .withBorder{
     list-style-type: none;
     border-right: 1px solid white;
     padding-right: 20px;
-
 }
+
 .colorWhite{
     color: white;
 }
-li{
-    list-style-type: none;
-}
-#second{
-align-items: center;
 
+.second{
+    text-align: center;
 }
